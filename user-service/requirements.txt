@@ -1,0 +1,10 @@
+fastapi         # фреймворк для створення REST API
+uvicorn         # ASGI сервер який запускає FastAPI
+sqlalchemy      # ORM для роботи з базою даних через Python
+asyncpg         # драйвер щоб async/await працював з PostgreSQL 
+alembic         # інструмент для міграцій бази даних
+loguru          # логування
+httpx           # HTTP клієнт для запитів до зовнішніх API
+pydantic-settings               # читання змінних з .env файлу з валідацією
+fastapi-users[sqlalchemy]       # дає реєстрацію, логін, JWT, OAuth
+python-jose[cryptography]       # для роботи з JWT токенами

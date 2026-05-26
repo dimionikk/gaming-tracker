@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+sqlalchemy
+asyncpg
+alembic
+pydantic-settings
+httpx
+redis
+loguru
+python-jose[cryptography]
+fastapi-users[sqlalchemy]
